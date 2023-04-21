@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: 'Outfit', sans-serif;
+    background: hsl(212, 45%, 89%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    background: white;
+    border-radius: 15px;
+}
+
+#caption {
+
+    padding: 0 auto;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#instruction {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#text-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
